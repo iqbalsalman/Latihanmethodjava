@@ -1,13 +1,17 @@
 public class Latihanno2{
-String nama;
-	public void setNamaLengkap(String nama) {
-        this.nama = nama;
+String name;
+  
+    public void setName( String name ){
+        this.name = name;
     }
     public static void main(String[] args){
+      // Latihanno3 boss = new Latihanno3();
+    	
       Latihanno3 boss = new Latihanno3();
-        boss.getNamaLengkap();
-        boss.setNamaLengkap(1);
-    	System.out.println("Nama Saya ",getNamaLengkap());
+       Latihanno2 boss1 = new Latihanno2();
+        
+        boss1.setName("Muhamad Iqbal Salman");
+        System.out.println("Nama saya adalah "  +boss.getName());
     }
  
-}///masih error
+}///masih errorge

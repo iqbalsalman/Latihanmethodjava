@@ -1,10 +1,10 @@
 class Method1 {
 	
-		public static  void sayUmur(String panggil){
-			System.out.println("nama saya"+panggil);
+		public static  void sayUmur(String panggil, Integer umur){
+			System.out.println("Halo nama saya"+panggil + "Umur saya"+ umur);
 		}
 
 	public static void main(String[] args){
-		sayUmur("panggil");
+		sayUmur("panggil",25);
 	}
 }
