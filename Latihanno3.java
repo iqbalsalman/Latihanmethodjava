@@ -1,8 +1,11 @@
+package belajarjava3;
 public class Latihanno3{
-	  String nama;
+	  String name;
 
-public String getNamaLengkap(){
-    return nama;
-  }
+  public String getName(){
+        return name;
+    }
+
+    
 
 }
