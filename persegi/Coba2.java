@@ -20,6 +20,18 @@ public class Coba2{
     System.out.println( "Maka Luas Persegi Tersebut adalah " +keliling);
 
 	 }
+	
+	public static void HitungPersegipanajang(){
+    Scanner tes = new Scanner(System.in);
+    System.out.print("Masukan Nilai Panjang Persegi : ");
+    Integer p = tes.nextInt();
+    System.out.print("Masukan Lebar Persegi : ");
+    Integer l = tes.nextInt();
+    Integer luas = p*l;
+    System.out.println( "Maka Luas Persegi Panjang " +luas);
+
+	 }
+
 
 	 public static void main(String[] args){
 	 	Scanner tes = new Scanner(System.in);
@@ -27,7 +39,6 @@ public class Coba2{
 	 	System.out.println("1. Hitung Persegi");
 	 	System.out.println("2. Hitung Lingkaran");
 	    System.out.println("3. Persegi Panjang");
-	    
 	    System.out.println("=======================================");
 	    System.out.println("");
 	    System.out.println("");
@@ -38,7 +49,9 @@ public class Coba2{
 	    }else if(baru==2){
 
         HitungLingkaran();
-	    }else{
+	    }else if(baru==3){
+      HitungPersegipanajang();
+         }else{
 	    	System.out.println("Masukan Salah");
 	    }
 
