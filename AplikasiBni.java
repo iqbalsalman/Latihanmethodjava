@@ -8,6 +8,6 @@ public class AplikasiBni{
 
         // cara memanggil method hitungBunga yang ada di file Aplikasi Kredit
         Aplikasikredit appKredit = new Aplikasikredit();
-        appKredit.hitungBunga(2); //masih error belah values
+        appKredit.hitungBunga(2); //masih error belah values oke
     }
 }
